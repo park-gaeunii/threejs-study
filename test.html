@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="button">
+      <a href="index.html">galaxy</a>
+      <a href="clouds.html">clouds</a>
+      <a href="round.html">round box</a>
+      <a href="test.html">layer/node</a>
+      <a href="basics.html">picking</a>
+    </div>
+
+    <div class="action">
+      <div class="color">
+        <a id="colorff0000"></a>
+        <a id="color00ff00"></a>
+        <a id="color0000ff"></a>
+      </div>
+      <div class="event">
+        <button id="add" type="button">add</button>
+        <button id="del" type="button">delete</button>
+        <button id="tween" type="button">tween</button>
+      </div>
+    </div>
+
+    <canvas class="webgl"></canvas>
+  </div>
+  
+	<script src="/three/build/three.min.js"></script>
+	<script src="/three/examples/js/controls/OrbitControls.js"></script>
+	<script src="/three/examples/js/lines/LineSegments2.js"></script>
+	<script src="/three/examples/js/lines/LineSegmentsGeometry.js"></script>
+	<script src="/three/examples/js/lines/Line2.js"></script>
+	<script src="/three/examples/js/lines/LineGeometry.js"></script>
+	<script src="/three/examples/js/lines/LineMaterial.js"></script>
+	<script src="/three/examples/js/libs/tween.umd.js"></script>
+	<script src="/js/test.js"></script>
+</body>
+</html>
